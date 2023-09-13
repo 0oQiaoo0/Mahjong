@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{99d9901e-e1e5-4dd7-ad9a-40c97d718d1d}</ProjectGuid>
+    <RootNamespace>Mahjong</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Mahjong.cpp" />
+    <ClCompile Include="Pai.cpp" />
+    <ClCompile Include="MahjongSystem.cpp" />
+    <ClCompile Include="Yaku.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pai.h" />
+    <ClInclude Include="MahjongSystem.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Yaku.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mahjong.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="一位.wav" />
+    <Media Include="一发.wav" />
+    <Media Include="一杯口.wav" />
+    <Media Include="一气通贯.wav" />
+    <Media Include="七对子.wav" />
+    <Media Include="三倍役满.wav" />
+    <Media Include="三倍满.wav" />
+    <Media Include="三暗刻.wav" />
+    <Media Include="三杠子.wav" />
+    <Media Include="三色同刻.wav" />
+    <Media Include="三色同顺.wav" />
+    <Media Include="东.wav" />
+    <Media Include="两倍役满.wav" />
+    <Media Include="两立直.wav" />
+    <Media Include="两立直役种.wav" />
+    <Media Include="中.wav" />
+    <Media Include="九种九牌.wav" />
+    <Media Include="九莲宝灯.wav" />
+    <Media Include="二三四位.wav" />
+    <Media Include="二杯口.wav" />
+    <Media Include="五倍役满.wav" />
+    <Media Include="倍满.wav" />
+    <Media Include="倍满三倍满.wav" />
+    <Media Include="六倍役满.wav" />
+    <Media Include="北.wav" />
+    <Media Include="南.wav" />
+    <Media Include="发.wav" />
+    <Media Include="吃.wav" />
+    <Media Include="听牌.wav" />
+    <Media Include="和牌前摇.wav" />
+    <Media Include="和牌音效-旋风.wav" />
+    <Media Include="四倍役满.wav" />
+    <Media Include="四暗刻.wav" />
+    <Media Include="四暗刻单骑.wav" />
+    <Media Include="四杠子.wav" />
+    <Media Include="四杠流局.wav" />
+    <Media Include="四风连打.wav" />
+    <Media Include="国士无双.wav" />
+    <Media Include="国士无双十三面.wav" />
+    <Media Include="地和.wav" />
+    <Media Include="大三元.wav" />
+    <Media Include="大四喜.wav" />
+    <Media Include="天和.wav" />
+    <Media Include="字一色.wav" />
+    <Media Include="宝牌.wav" />
+    <Media Include="宝牌10.wav" />
+    <Media Include="宝牌11.wav" />
+    <Media Include="宝牌12.wav" />
+    <Media Include="宝牌2.wav" />
+    <Media Include="宝牌3.wav" />
+    <Media Include="宝牌4.wav" />
+    <Media Include="宝牌5.wav" />
+    <Media Include="宝牌6.wav" />
+    <Media Include="宝牌7.wav" />
+    <Media Include="宝牌8.wav" />
+    <Media Include="宝牌9.wav" />
+    <Media Include="宝牌一大堆.wav" />
+    <Media Include="对对和.wav" />
+    <Media Include="小三元.wav" />
+    <Media Include="小四喜.wav" />
+    <Media Include="岭上开花.wav" />
+    <Media Include="平和.wav" />
+    <Media Include="役满.wav" />
+    <Media Include="役满背景音.wav" />
+    <Media Include="役种.wav" />
+    <Media Include="打.wav" />
+    <Media Include="抢杠.wav" />
+    <Media Include="按钮.wav" />
+    <Media Include="摆.wav" />
+    <Media Include="摆尾.wav" />
+    <Media Include="摆牌.wav" />
+    <Media Include="摆牌前摇.wav" />
+    <Media Include="断幺.wav" />
+    <Media Include="曲水流觞.wav" />
+    <Media Include="未听牌.wav" />
+    <Media Include="杠.wav" />
+    <Media Include="河底捞鱼.wav" />
+    <Media Include="流局前摇.wav" />
+    <Media Include="流局满贯.wav" />
+    <Media Include="海底摸月.wav" />
+    <Media Include="混一色.wav" />
+    <Media Include="混全带幺九.wav" />
+    <Media Include="混老头.wav" />
+    <Media Include="清一色.wav" />
+    <Media Include="清老头.wav" />
+    <Media Include="满贯.wav" />
+    <Media Include="满贯跳满.wav" />
+    <Media Include="点数.wav" />
+    <Media Include="点数转移.wav" />
+    <Media Include="番数.wav" />
+    <Media Include="白.wav" />
+    <Media Include="碰.wav" />
+    <Media Include="立直.wav" />
+    <Media Include="立直役种.wav" />
+    <Media Include="立直音乐-一触即发.wav" />
+    <Media Include="累计役满.wav" />
+    <Media Include="纯全带幺九.wav" />
+    <Media Include="纯正九莲宝灯.wav" />
+    <Media Include="绿一色.wav" />
+    <Media Include="翻宝牌.wav" />
+    <Media Include="自摸.wav" />
+    <Media Include="荣.wav" />
+    <Media Include="西.wav" />
+    <Media Include="跳满.wav" />
+    <Media Include="连东.wav" />
+    <Media Include="连北.wav" />
+    <Media Include="连南.wav" />
+    <Media Include="连西.wav" />
+    <Media Include="选.wav" />
+    <Media Include="选择.wav" />
+    <Media Include="门前清自摸和.wav" />
+    <Media Include="隆冬迎岁.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

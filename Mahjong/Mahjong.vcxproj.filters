@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{1e68d18d-8317-4b1f-b5a3-ec54883e2da8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mahjong.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pai.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MahjongSystem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Yaku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pai.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MahjongSystem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Yaku.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="摆.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="摆尾.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="打.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="隆冬迎岁.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="曲水流觞.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="选.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="按钮.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="选择.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="立直音乐-一触即发.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="摆牌.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="摆牌前摇.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="吃.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="碰.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="杠.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="自摸.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="荣.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="两立直.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="立直.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="和牌音效-旋风.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="和牌前摇.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="翻宝牌.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="流局前摇.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="役种.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="番数.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="点数.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="役满背景音.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="满贯跳满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="倍满三倍满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="点数转移.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="二三四位.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="一位.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="白.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="北.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="东.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="断幺.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="发.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="海底摸月.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="河底捞鱼.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="混全带幺九.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="连北.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="连东.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="连南.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="连西.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="岭上开花.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="南.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="平和.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="抢杠.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="三杠子.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="三色同顺.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="三色同刻.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="西.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="一杯口.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="一气通贯.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="中.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌2.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌3.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌4.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌5.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌6.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌7.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌8.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌9.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌10.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌12.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌11.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="宝牌一大堆.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="纯正九莲宝灯.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="大三元.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="大四喜.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="地和.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="对对和.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="二杯口.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="国士无双.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="国士无双十三面.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="混老头.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="混一色.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="九莲宝灯.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="立直役种.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="两立直役种.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="流局满贯.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="绿一色.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="门前清自摸和.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="七对子.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="清老头.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="清一色.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="三暗刻.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="四暗刻.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="四暗刻单骑.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="四杠子.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="天和.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="小三元.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="小四喜.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="一发.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="字一色.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="倍满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="九种九牌.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="累计役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="两倍役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="六倍役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="满贯.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="三倍满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="三倍役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="四倍役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="四风连打.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="四杠流局.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="跳满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="听牌.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="未听牌.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="五倍役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="役满.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="纯全带幺九.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Mahjong.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

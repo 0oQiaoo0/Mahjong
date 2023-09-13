@@ -1,0 +1,56 @@
+﻿  Block.cpp
+  Mahjong.cpp
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\Mahjong.cpp(53,59): warning C4244: “/=”: 从“double”转换到“LONG”，可能丢失数据
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\Mahjong.cpp(54,59): warning C4244: “/=”: 从“double”转换到“LONG”，可能丢失数据
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\Mahjong.cpp(150,24): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\Mahjong.cpp(152,13): warning C4018: “<”: 有符号/无符号不匹配
+  MahjongSystem.cpp
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(87,14): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(92,14): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(97,14): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(102,14): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(276,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(285,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(291,37): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(300,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(306,37): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(315,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(321,37): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(456,17): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(552,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(617,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(619,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(701,20): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(703,20): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(787,22): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(945,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(950,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1029,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1040,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1051,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1100,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1129,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1161,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1193,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1222,25): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1244,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1267,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1291,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1302,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1310,23): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1324,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1328,21): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1337,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1354,24): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1478,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1483,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1500,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1503,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1515,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1539,21): warning C4018: “<=”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1548,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1567,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1791,13): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+C:\Users\Qiao\source\repos\Mahjong\Mahjong\MahjongSystem.cpp(1370): warning C4715: “MahjongSystem::Divide”: 不是所有的控件路径都返回值
+  Mahjong.vcxproj -> C:\Users\Qiao\source\repos\Mahjong\Debug\Mahjong.exe

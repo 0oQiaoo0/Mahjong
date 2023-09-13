@@ -1,0 +1,291 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE1               WAVE                    "隆冬迎岁.wav"
+
+IDR_WAVE2               WAVE                    "曲水流觞.wav"
+
+IDR_WAVE3               WAVE                    "摆.wav"
+
+IDR_WAVE4               WAVE                    "摆尾.wav"
+
+IDR_WAVE5               WAVE                    "选.wav"
+
+IDR_WAVE6               WAVE                    "打.wav"
+
+IDR_WAVE7               WAVE                    "按钮.wav"
+
+IDR_WAVE8               WAVE                    "选择.wav"
+
+IDR_WAVE9               WAVE                    "立直音乐-一触即发.wav"
+
+IDR_WAVE10              WAVE                    "摆牌前摇.wav"
+
+IDR_WAVE11              WAVE                    "摆牌.wav"
+
+IDR_WAVE12              WAVE                    "吃.wav"
+
+IDR_WAVE13              WAVE                    "碰.wav"
+
+IDR_WAVE14              WAVE                    "杠.wav"
+
+IDR_WAVE15              WAVE                    "立直.wav"
+
+IDR_WAVE16              WAVE                    "两立直.wav"
+
+IDR_WAVE17              WAVE                    "荣.wav"
+
+IDR_WAVE18              WAVE                    "自摸.wav"
+
+IDR_WAVE19              WAVE                    "和牌音效-旋风.wav"
+
+IDR_WAVE20              WAVE                    "和牌前摇.wav"
+
+IDR_WAVE21              WAVE                    "翻宝牌.wav"
+
+IDR_WAVE22              WAVE                    "流局前摇.wav"
+
+IDR_WAVE23              WAVE                    "役种.wav"
+
+IDR_WAVE24              WAVE                    "番数.wav"
+
+IDR_WAVE25              WAVE                    "点数.wav"
+
+IDR_WAVE26              WAVE                    "满贯跳满.wav"
+
+IDR_WAVE27              WAVE                    "倍满三倍满.wav"
+
+IDR_WAVE28              WAVE                    "役满背景音.wav"
+
+IDR_WAVE29              WAVE                    "点数转移.wav"
+
+IDR_WAVE30              WAVE                    "一位.wav"
+
+IDR_WAVE31              WAVE                    "二三四位.wav"
+
+IDR_WAVE32              WAVE                    "抢杠.wav"////
+
+IDR_WAVE33              WAVE                    "岭上开花.wav"
+
+IDR_WAVE34              WAVE                    "海底摸月.wav"
+
+IDR_WAVE35              WAVE                    "河底捞鱼.wav"
+
+IDR_WAVE36              WAVE                    "东.wav"//
+
+IDR_WAVE37              WAVE                    "南.wav"//
+
+IDR_WAVE38              WAVE                    "西.wav"//
+
+IDR_WAVE39              WAVE                    "北.wav"//
+
+IDR_WAVE40              WAVE                    "中.wav"//
+
+IDR_WAVE41              WAVE                    "白.wav"//
+
+IDR_WAVE42              WAVE                    "发.wav"//
+
+IDR_WAVE43              WAVE                    "连东.wav"//
+
+IDR_WAVE44              WAVE                    "连南.wav"//
+
+IDR_WAVE45              WAVE                    "连西.wav"/////
+
+IDR_WAVE46              WAVE                    "连北.wav"/////
+
+IDR_WAVE47              WAVE                    "断幺.wav"//
+
+IDR_WAVE48              WAVE                    "一杯口.wav"//
+
+IDR_WAVE49              WAVE                    "平和.wav"//
+
+IDR_WAVE50              WAVE                    "混全带幺九.wav"//
+
+IDR_WAVE51              WAVE                    "一气通贯.wav"
+
+IDR_WAVE52              WAVE                    "三色同顺.wav"//
+
+IDR_WAVE53              WAVE                    "三色同刻.wav"//
+
+IDR_WAVE54              WAVE                    "三杠子.wav"//
+
+IDR_WAVE55              WAVE                    "对对和.wav"
+
+IDR_WAVE56              WAVE                    "三暗刻.wav"
+
+IDR_WAVE57              WAVE                    "小三元.wav"//
+
+IDR_WAVE58              WAVE                    "混老头.wav"//
+
+IDR_WAVE59              WAVE                    "七对子.wav"//
+
+IDR_WAVE60              WAVE                    "纯全带幺九.wav"//
+
+IDR_WAVE61              WAVE                    "混一色.wav"//
+
+IDR_WAVE62              WAVE                    "二杯口.wav"//
+
+IDR_WAVE63              WAVE                    "清一色.wav"//
+
+IDR_WAVE64              WAVE                    "立直役种.wav"//
+
+IDR_WAVE65              WAVE                    "两立直役种.wav"//
+
+IDR_WAVE66              WAVE                    "门前清自摸和.wav"//
+
+IDR_WAVE67              WAVE                    "一发.wav"//
+
+IDR_WAVE68              WAVE                    "宝牌.wav"
+
+IDR_WAVE69              WAVE                    "宝牌2.wav"
+
+IDR_WAVE70              WAVE                    "宝牌3.wav"
+
+IDR_WAVE71              WAVE                    "宝牌4.wav"
+
+IDR_WAVE72              WAVE                    "宝牌5.wav"
+
+IDR_WAVE73              WAVE                    "宝牌6.wav"
+
+IDR_WAVE74              WAVE                    "宝牌7.wav"
+
+IDR_WAVE75              WAVE                    "宝牌8.wav"
+
+IDR_WAVE76              WAVE                    "宝牌9.wav"
+
+IDR_WAVE77              WAVE                    "宝牌10.wav"
+
+IDR_WAVE78              WAVE                    "宝牌11.wav"
+
+IDR_WAVE79              WAVE                    "宝牌12.wav"
+
+IDR_WAVE80              WAVE                    "宝牌一大堆.wav"
+
+IDR_WAVE81              WAVE                    "天和.wav"
+
+IDR_WAVE82              WAVE                    "地和.wav"
+
+IDR_WAVE83              WAVE                    "大三元.wav"//
+
+IDR_WAVE84              WAVE                    "四暗刻.wav"
+
+IDR_WAVE85              WAVE                    "四暗刻单骑.wav"
+
+IDR_WAVE86              WAVE                    "字一色.wav"//
+
+IDR_WAVE87              WAVE                    "绿一色.wav"//
+
+IDR_WAVE88              WAVE                    "清老头.wav"//
+
+IDR_WAVE89              WAVE                    "国士无双.wav"
+
+IDR_WAVE90              WAVE                    "国士无双十三面.wav"
+
+IDR_WAVE91              WAVE                    "大四喜.wav"//
+
+IDR_WAVE92              WAVE                    "小四喜.wav"//
+
+IDR_WAVE93              WAVE                    "四杠子.wav"
+
+IDR_WAVE94              WAVE                    "九莲宝灯.wav"
+
+IDR_WAVE95              WAVE                    "纯正九莲宝灯.wav"
+
+IDR_WAVE96              WAVE                    "流局满贯.wav"////
+
+IDR_WAVE97              WAVE                    "累计役满.wav"
+
+IDR_WAVE98              WAVE                    "满贯.wav"
+
+IDR_WAVE99              WAVE                    "跳满.wav"
+
+IDR_WAVE100             WAVE                    "倍满.wav"
+
+IDR_WAVE101             WAVE                    "三倍满.wav"
+
+IDR_WAVE102             WAVE                    "役满.wav"
+
+IDR_WAVE103             WAVE                    "两倍役满.wav"
+
+IDR_WAVE104             WAVE                    "三倍役满.wav"
+
+IDR_WAVE105             WAVE                    "四倍役满.wav"
+
+IDR_WAVE106             WAVE                    "五倍役满.wav"
+
+IDR_WAVE107             WAVE                    "六倍役满.wav"
+
+IDR_WAVE108             WAVE                    "听牌.wav"
+
+IDR_WAVE109             WAVE                    "未听牌.wav"
+
+IDR_WAVE110             WAVE                    "四风连打.wav"
+
+IDR_WAVE111             WAVE                    "四杠流局.wav"
+
+IDR_WAVE112             WAVE                    "九种九牌.wav"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
